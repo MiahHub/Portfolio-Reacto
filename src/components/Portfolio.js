@@ -1,6 +1,6 @@
 import { CodeIcon } from '@heroicons/react/solid';
 import React from 'react';
-import { Portfolio } from '../data';
+import { portfolio } from '../data';
 
 export default function Portfolio() {
   return (
@@ -12,16 +12,14 @@ export default function Portfolio() {
             App Portfolio
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Take a peek at some of my work...
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {Portfolio.map((Portfolio) => (
+          {portfolio.map((portfolio) => (
             <a
-              href={Portfolio.link}
-              key={Portfolio.image}
+              href={portfolio.link}
+              key={portfolio.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img

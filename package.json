@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-reacto",
+  "version": "1.0.0",
+  "description": "React portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiahHub/Portfolio-Reacto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiahHub/Portfolio-Reacto/issues"
+  },
+  "homepage": "https://github.com/MiahHub/Portfolio-Reacto#readme"
+}
