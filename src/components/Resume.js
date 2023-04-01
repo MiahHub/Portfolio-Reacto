@@ -12,7 +12,8 @@ export default function Resume() {
             Resume
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Click here to download my resume.
+            Proficiencies include UI / UX design, HTML, CSS, JavaScript, Node,
+            Express, React, MongoDB, SQL, APIs.
           </p>
           <a href="/Images\truncated resume 2023.PDF" download>
             Click to download
